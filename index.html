@@ -1,0 +1,983 @@
+<html class="scroll-smooth" lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Oportunidades Globales GT | Tu Puerta a Becas Internacionales
+  </title>
+  <link href="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Escudo_de_Guatemala.svg/1200px-Escudo_de_Guatemala.svg.png" rel="icon" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <style>
+   /* Custom colors for Tailwind */
+    :root {
+      --color-primary-celeste: #e0f7ff;
+      --color-primary-celeste-dark: #0284c7;
+      --color-accent-green: #28a745;
+      --color-text-dark: #1f2937;
+      --color-text-light: #4b5563;
+      --color-bg-light: #f9fafb;
+      --color-border-light: #d1d5db;
+      --color-white: #ffffff;
+      --shadow-subtle: rgba(0, 0, 0, 0.08);
+      --shadow-medium: rgba(0, 0, 0, 0.15);
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 text-gray-800 font-inter overflow-x-hidden">
+  <!-- Navbar -->
+  <nav class="sticky top-0 z-50 bg-white shadow-md">
+   <div class="container mx-auto flex flex-wrap items-center justify-between px-6 py-4 max-w-7xl">
+    <a class="flex items-center gap-2 font-poppins font-bold text-2xl text-celeste-primary hover:text-celeste-primary-dark transition-colors" href="#" style="color: var(--color-primary-celeste-dark);">
+     <i class="fas fa-globe text-green-600">
+     </i>
+     Global GT
+    </a>
+    <ul class="hidden md:flex space-x-8 font-medium text-gray-700" id="nav-links">
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#about" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-info-circle text-green-600 w-4 h-4">
+       </i>
+       Sobre Nosotros
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#scholarships" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-graduation-cap text-green-600 w-4 h-4">
+       </i>
+       Becas
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#universities" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-university text-green-600 w-4 h-4">
+       </i>
+       Universidades
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#testimonials" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-users text-green-600 w-4 h-4">
+       </i>
+       Historias
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#resources" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-book text-green-600 w-4 h-4">
+       </i>
+       Recursos
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+     <li>
+      <a class="relative group px-2 py-1 hover:text-celeste-primary-dark transition-colors flex items-center gap-1" href="#contact" style="--tw-text-opacity: 1; color: var(--color-text-dark);">
+       <i class="fas fa-envelope text-green-600 w-4 h-4">
+       </i>
+       Contacto
+       <span class="absolute left-0 -bottom-1 h-0.5 w-0 bg-green-600 rounded transition-all group-hover:w-full">
+       </span>
+      </a>
+     </li>
+    </ul>
+    <button aria-label="Abrir menú" class="md:hidden text-celeste-primary hover:text-celeste-primary-dark transition-colors focus:outline-none" id="menu-btn" style="color: var(--color-primary-celeste-dark);">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <div class="hidden md:hidden bg-white shadow-inner border-t border-gray-200" id="mobile-menu">
+    <ul class="flex flex-col space-y-2 p-4 text-gray-700 font-medium">
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#about" style="color: var(--color-text-dark);">
+       <i class="fas fa-info-circle text-green-600 w-5 h-5">
+       </i>
+       Sobre Nosotros
+      </a>
+     </li>
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#scholarships" style="color: var(--color-text-dark);">
+       <i class="fas fa-graduation-cap text-green-600 w-5 h-5">
+       </i>
+       Becas
+      </a>
+     </li>
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#universities" style="color: var(--color-text-dark);">
+       <i class="fas fa-university text-green-600 w-5 h-5">
+       </i>
+       Universidades
+      </a>
+     </li>
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#testimonials" style="color: var(--color-text-dark);">
+       <i class="fas fa-users text-green-600 w-5 h-5">
+       </i>
+       Historias
+      </a>
+     </li>
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#resources" style="color: var(--color-text-dark);">
+       <i class="fas fa-book text-green-600 w-5 h-5">
+       </i>
+       Recursos
+      </a>
+     </li>
+     <li>
+      <a class="block px-3 py-2 rounded hover:bg-celeste-primary/20 transition-colors flex items-center gap-2" href="#contact" style="color: var(--color-text-dark);">
+       <i class="fas fa-envelope text-green-600 w-5 h-5">
+       </i>
+       Contacto
+      </a>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Hero Header -->
+  <header class="relative bg-gradient-to-br from-cyan-600 to-blue-700 text-white py-24 px-6 text-center overflow-hidden" style="font-family: 'Poppins', sans-serif;">
+   <img alt="Grupo de estudiantes guatemaltecos sonrientes con mochilas y libros, en un campus universitario moderno con cielo celeste brillante y árboles verdes" class="absolute inset-0 w-full h-full object-cover opacity-20 -z-10" height="600" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7c6d08fe-a5d1-46de-86bc-ffd6c1ba4831.jpg" width="1920"/>
+   <div class="max-w-4xl mx-auto">
+    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg text-white">
+     Oportunidades Globales GT
+    </h1>
+    <p class="text-xl md:text-2xl max-w-3xl mx-auto opacity-90 mb-8 font-medium drop-shadow-md">
+     Tu puerta de entrada a las mejores becas universitarias y oportunidades de estudio en el extranjero para guatemaltecos.
+    </p>
+    <a class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-400 focus:ring-opacity-50 text-white font-semibold rounded-lg px-8 py-4 text-lg transition-transform active:scale-95 shadow-lg" href="#scholarships">
+     <span>
+      Explora Becas Ahora
+     </span>
+     <i class="fas fa-arrow-right">
+     </i>
+    </a>
+   </div>
+  </header>
+  <main class="container max-w-7xl mx-auto px-6 py-12 space-y-20">
+   <!-- Sobre Nosotros -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn" id="about">
+    <div class="max-w-4xl mx-auto text-center">
+     <h2 class="text-4xl font-poppins font-semibold mb-6 relative inline-block text-cyan-600" style="color: var(--color-primary-celeste-dark);">
+      Sobre Nosotros
+      <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+      </span>
+     </h2>
+     <p class="text-gray-600 text-lg leading-relaxed">
+      En
+      <strong>
+       Oportunidades Globales GT
+      </strong>
+      , creemos en el poder transformador de la educación internacional. Somos una plataforma dedicada a
+      <strong>
+       conectar a estudiantes guatemaltecos con becas y programas académicos de élite
+      </strong>
+      en universidades de todo el mundo. Nuestro compromiso es simplificar el complejo proceso de búsqueda y aplicación, brindando información clara, actualizada y recursos valiosos para que tu sueño de estudiar en el extranjero se haga realidad.
+     </p>
+    </div>
+    <div class="mt-12 grid gap-8 md:grid-cols-3">
+     <article class="bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+      <i class="fas fa-lightbulb text-green-600 text-5xl mb-4">
+      </i>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+       Misión
+      </h3>
+      <p class="text-gray-600">
+       Empoderar a jóvenes guatemaltecos ofreciéndoles acceso a educación de calidad global a través de becas, fomentando su desarrollo personal y profesional.
+      </p>
+     </article>
+     <article class="bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+      <i class="fas fa-eye text-green-600 text-5xl mb-4">
+      </i>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+       Visión
+      </h3>
+      <p class="text-gray-600">
+       Ser la principal fuente de información y apoyo para estudiantes guatemaltecos que buscan oportunidades académicas internacionales, creando una red global de líderes.
+      </p>
+     </article>
+     <article class="bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col items-center text-center">
+      <i class="fas fa-heart text-green-600 text-5xl mb-4">
+      </i>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+       Valores
+      </h3>
+      <p class="text-gray-600">
+       Transparencia, excelencia, compromiso, inclusión y apoyo continuo a nuestra comunidad de becarios y aspirantes.
+      </p>
+     </article>
+    </div>
+   </section>
+   <!-- Becas con pestañas -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn" id="scholarships">
+    <h2 class="text-4xl font-poppins font-semibold mb-6 text-center text-cyan-700 relative inline-block" style="color: var(--color-primary-celeste-dark);">
+     Explora Nuestras Becas Destacadas
+     <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+     </span>
+    </h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-600 mb-10">
+     Descubre las oportunidades que te esperan. Hemos seleccionado becas de alto impacto en universidades de prestigio, clasificadas por su enfoque.
+    </p>
+    <div class="max-w-5xl mx-auto">
+     <div aria-label="Categorías de Becas" class="flex flex-wrap justify-center gap-4 mb-8" role="tablist">
+      <button aria-controls="tab-academic" aria-selected="true" class="tab-button px-5 py-2 rounded-lg font-semibold text-cyan-700 bg-cyan-100 shadow-md focus:outline-none focus:ring-2 focus:ring-green-500" id="tab-btn-academic" role="tab" tabindex="0">
+       <i class="fas fa-book-open mr-2 text-green-600">
+       </i>
+       Becas Académicas y de Investigación
+      </button>
+      <button aria-controls="tab-sports" aria-selected="false" class="tab-button px-5 py-2 rounded-lg font-semibold text-cyan-700 hover:bg-cyan-100 focus:outline-none focus:ring-2 focus:ring-green-500" id="tab-btn-sports" role="tab" tabindex="-1">
+       <i class="fas fa-futbol mr-2 text-green-600">
+       </i>
+       Becas Deportivas
+      </button>
+      <button aria-controls="tab-arts" aria-selected="false" class="tab-button px-5 py-2 rounded-lg font-semibold text-cyan-700 hover:bg-cyan-100 focus:outline-none focus:ring-2 focus:ring-green-500" id="tab-btn-arts" role="tab" tabindex="-1">
+       <i class="fas fa-palette mr-2 text-green-600">
+       </i>
+       Becas de Artes y Cultura
+      </button>
+      <button aria-controls="tab-leadership" aria-selected="false" class="tab-button px-5 py-2 rounded-lg font-semibold text-cyan-700 hover:bg-cyan-100 focus:outline-none focus:ring-2 focus:ring-green-500" id="tab-btn-leadership" role="tab" tabindex="-1">
+       <i class="fas fa-handshake mr-2 text-green-600">
+       </i>
+       Becas de Liderazgo y Desarrollo
+      </button>
+     </div>
+     <!-- Tab panels -->
+     <div>
+      <div aria-labelledby="tab-btn-academic" class="tab-panel grid grid-cols-1 md:grid-cols-2 gap-8" id="tab-academic" role="tabpanel" tabindex="0">
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Beca Fulbright (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Para
+         <strong>
+          Maestrías y Doctorados
+         </strong>
+         en una amplia gama de campos. Requiere licenciatura, excelente promedio, liderazgo, compromiso social y dominio del inglés (TOEFL/IELTS).
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.fulbright.org.gt" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Beca DAAD (Alemania)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Oportunidades de
+         <strong>
+          Maestría, Doctorado y Estancias de Investigación
+         </strong>
+         en universidades alemanas. Enfocada en diversas disciplinas. Requiere excelencia académica y a menudo, dominio de alemán o inglés.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.daad.de/en/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas Erasmus Mundus (Europa)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Programas de
+         <strong>
+          Máster Conjunto
+         </strong>
+         para estudiar en al menos dos países europeos. Cubre matrícula, viaje y subsistencia. Muy competitivo y multidisciplinario.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters-scholarships" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas Chevening (Reino Unido)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Becas completas para
+         <strong>
+          programas de Máster de un año
+         </strong>
+         en cualquier universidad británica. Dirigidas a futuros líderes con experiencia profesional y visión de impacto.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.chevening.org/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas de la OEA (Organización de los Estados Americanos)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Ofrecen becas para
+         <strong>
+          estudios de posgrado (Maestría y Doctorado)
+         </strong>
+         y cursos de desarrollo profesional en diversos países miembros. Enfocadas en el desarrollo regional.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.oas.org/es/becas/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas MEXT (Japón)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Otorgadas por el Ministerio de Educación, Cultura, Deportes, Ciencia y Tecnología de Japón. Cubren programas de
+         <strong>
+          pregrado, posgrado e investigación
+         </strong>
+         en universidades japonesas. Muy completas.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.gt.emb-japan.go.jp/itpr_es/becas.html" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+      </div>
+      <div aria-labelledby="tab-btn-sports" class="hidden tab-panel grid grid-cols-1 md:grid-cols-2 gap-8" id="tab-sports" role="tabpanel" tabindex="0">
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         NCAA Sports Scholarships (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Becas deportivas para estudiantes-atletas que compiten en deportes universitarios en EE.UU. La NCAA ofrece becas parciales y completas para deportes como fútbol, baloncesto, atletismo y más. Requiere buen rendimiento académico y habilidades deportivas destacadas.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.ncaa.org/student-athletes/future" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas deportivas de la Universidad de Stanford (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Stanford ofrece becas deportivas para atletas de alto rendimiento en múltiples disciplinas. Además de la beca deportiva, se requiere cumplir con los requisitos académicos de admisión.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://gostanford.com/sports/2014/9/18/GEN_0918144710.aspx" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas deportivas de la Universidad de Florida (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         La Universidad de Florida ofrece becas deportivas para estudiantes-atletas en deportes como fútbol americano, natación, tenis y más. Se valoran tanto las habilidades deportivas como el rendimiento académico.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://floridagators.com/sports/2015/7/30/GEN_0730154142.aspx" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas deportivas de la Universidad de Duke (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Duke University ofrece becas deportivas para atletas en deportes como baloncesto, fútbol y atletismo. La universidad combina excelencia académica con programas deportivos competitivos.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://goduke.com/sports/2015/7/14/GEN_0714150420.aspx" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+      </div>
+      <div aria-labelledby="tab-btn-arts" class="hidden tab-panel grid grid-cols-1 md:grid-cols-2 gap-8" id="tab-arts" role="tabpanel" tabindex="0">
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas Berklee College of Music (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Berklee ofrece becas basadas en talento para estudiantes de música, incluyendo becas para jazz, producción musical, composición y más. Se requiere audición y portafolio.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.berklee.edu/scholarships" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas del Royal College of Art (Reino Unido)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         El Royal College of Art ofrece becas para estudiantes de arte, diseño, moda y comunicación visual. Se valoran portafolios creativos y excelencia académica.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.rca.ac.uk/study/fees-funding/scholarships-bursaries/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas de la Fundación Nacional para las Artes (EE.UU.)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Esta fundación ofrece becas para artistas emergentes en diversas disciplinas, incluyendo artes visuales, música, teatro y literatura. Se requiere aplicación con portafolio y propuesta artística.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.arts.gov/grants" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas del Programa de Becas Culturales del Gobierno de China
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Ofrecen oportunidades para estudiar disciplinas artísticas y culturales en universidades chinas, fomentando el intercambio cultural. Requiere talento y compromiso con la cultura china.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.csc.edu.cn/studyinchina/scholarshiplife/index.html" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+      </div>
+      <div aria-labelledby="tab-btn-leadership" class="hidden tab-panel grid grid-cols-1 md:grid-cols-2 gap-8" id="tab-leadership" role="tabpanel" tabindex="0">
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas The MasterCard Foundation Scholars Program
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Dirigidas a jóvenes líderes africanos, pero también con oportunidades en programas de desarrollo global para otros. Cubren estudios de pregrado y posgrado con un enfoque en liderazgo y servicio comunitario.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://mastercardfdn.org/scholars-program/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas Líderes Emergentes (Canadá)
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Programa de becas del gobierno de Canadá para profesionales de países en desarrollo que buscan cursar estudios de
+         <strong>
+          Maestría o Doctorado cortos
+         </strong>
+         o participar en programas de investigación. Enfocado en desarrollo sostenible.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.educanada.ca/scholarships-info-bourses/recipients-beneficiaires/elap-pfla.aspx?lang=eng" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas de la Fundación Obama para Liderazgo Global
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Ofrece becas para líderes emergentes de todo el mundo que demuestren compromiso con el cambio social y liderazgo. Incluye programas de desarrollo y oportunidades educativas.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.obama.org/leadership-academy/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+       <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+        <h3 class="text-xl font-semibold text-cyan-700 mb-3">
+         Becas de la Fundación Ford para Liderazgo Social
+        </h3>
+        <p class="text-gray-700 flex-grow mb-4">
+         Apoya a líderes sociales y activistas con becas para estudios de posgrado y programas de desarrollo en universidades reconocidas mundialmente.
+        </p>
+        <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.fordfoundation.org/work/our-grantees/" target="_blank">
+         Más Info
+         <i class="fas fa-external-link-alt">
+         </i>
+        </a>
+       </article>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Universidades -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn" id="universities">
+    <h2 class="text-4xl font-poppins font-semibold mb-6 text-center text-cyan-700 relative inline-block" style="color: var(--color-primary-celeste-dark);">
+     Universidades Aliadas y Destacadas
+     <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+     </span>
+    </h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-600 mb-10">
+     Estas son algunas de las universidades que ofrecen las becas mencionadas, reconocidas por su excelencia académica y programas destacados.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       University of Toronto (Canadá)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Ofrece becas deportivas y académicas, incluyendo programas para estudiantes internacionales en ingeniería, ciencias y negocios. Reconocida por su ambiente multicultural y excelencia investigativa.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://future.utoronto.ca" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Berklee College of Music (EE.UU.)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Institución líder en educación musical que ofrece becas basadas en talento para estudiantes internacionales en música, producción y artes escénicas.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://www.berklee.edu/scholarships" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       London School of Economics and Political Science (LSE) (Reino Unido)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Reconocida por sus programas en liderazgo, desarrollo social y políticas públicas. Ofrece becas para líderes emergentes y estudiantes internacionales.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://www.lse.ac.uk/study-at-lse/Graduate/fees-and-funding/scholarships" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Universidad Técnica de Múnich (Alemania)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Ofrece becas académicas y de investigación, incluyendo programas para doctorados y estancias de investigación en ciencias y tecnología.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://www.tum.de/en/studies/fees-and-financial-support/scholarships/" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Universidad de Tokio (Japón)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Ofrece becas MEXT para estudios de pregrado, posgrado e investigación, con programas destacados en cultura, ciencias y tecnología.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://www.u-tokyo.ac.jp/en/prospective-students/scholarships.html" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-map-marker-alt">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Universidad de Oxford (Reino Unido)
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Ofrece becas Chevening y otros programas de liderazgo para estudiantes internacionales en diversas disciplinas académicas.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://www.ox.ac.uk/admissions/graduate/fees-and-funding/graduate-scholarships" target="_blank">
+       Sitio oficial
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+    </div>
+   </section>
+   <!-- Historias -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn" id="testimonials">
+    <h2 class="text-4xl font-poppins font-semibold mb-6 text-center text-cyan-700 relative inline-block" style="color: var(--color-primary-celeste-dark);">
+     Historias que Inspiran
+     <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+     </span>
+    </h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-600 mb-10">
+     Conoce a algunos de nuestros becarios guatemaltecos que han transformado sus vidas a través de la educación internacional.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <h3 class="text-xl font-semibold text-cyan-700 mb-4">
+       "De Guatemala a Harvard: Un Sueño Cumplido"
+      </h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+       <i class="fas fa-quote-left text-green-600 mr-2">
+       </i>
+       Gracias a la beca Fulbright, pude cursar mi Maestría en Políticas Educativas en la Universidad de Harvard. Fue un camino desafiante, pero el apoyo de Oportunidades Globales GT fue fundamental. Ahora, de regreso en Guatemala, aplico mis conocimientos para mejorar nuestro sistema educativo. ¡Es un orgullo poder contribuir!
+       <i class="fas fa-quote-right text-green-600 ml-2">
+       </i>
+      </p>
+      <p class="font-semibold text-cyan-700 text-right">
+       — María J. (Maestría en Políticas Educativas, Harvard University)
+      </p>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <h3 class="text-xl font-semibold text-cyan-700 mb-4">
+       "Ingeniería Global: Mi Aventura en Canadá"
+      </h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+       <i class="fas fa-quote-left text-green-600 mr-2">
+       </i>
+       Con la beca para la University of Toronto, obtuve mi título en Ingeniería de Software. La experiencia fue increíble, no solo académicamente sino también personal. Actualmente, trabajo como desarrollador en una de las empresas tecnológicas más innovadoras de Canadá. ¡Oportunidades Globales GT abrió esta puerta para mí!
+       <i class="fas fa-quote-right text-green-600 ml-2">
+       </i>
+      </p>
+      <p class="font-semibold text-cyan-700 text-right">
+       — Carlos T. (Ingeniería de Software, University of Toronto)
+      </p>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <h3 class="text-xl font-semibold text-cyan-700 mb-4">
+       "Investigación en Alemania: Un Mundo de Posibilidades"
+      </h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+       <i class="fas fa-quote-left text-green-600 mr-2">
+       </i>
+       La beca DAAD me permitió cursar mi Doctorado en Biotecnología en la Universidad Técnica de Múnich, Alemania. La calidad de la investigación y el ambiente académico son de primer nivel. Estoy desarrollando proyectos que buscan soluciones a desafíos globales. ¡Una oportunidad que me cambió la perspectiva!
+       <i class="fas fa-quote-right text-green-600 ml-2">
+       </i>
+      </p>
+      <p class="font-semibold text-cyan-700 text-right">
+       — Ana L. (Doctorado en Biotecnología, TUM Alemania)
+      </p>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <h3 class="text-xl font-semibold text-cyan-700 mb-4">
+       "Explorando la Cultura Japonesa con una Beca MEXT"
+      </h3>
+      <p class="text-gray-700 mb-4 flex-grow">
+       <i class="fas fa-quote-left text-green-600 mr-2">
+       </i>
+       Siempre soñé con estudiar en Japón, y gracias a la beca MEXT pude hacer realidad mi sueño de estudiar Lengua y Cultura Japonesa en la Universidad de Tokio. La inmersión cultural ha sido fascinante y la calidad académica, excepcional. ¡Nunca pensé que fuera posible!
+       <i class="fas fa-quote-right text-green-600 ml-2">
+       </i>
+      </p>
+      <p class="font-semibold text-cyan-700 text-right">
+       — David R. (Licenciatura en Lengua y Cultura Japonesa, Universidad de Tokio)
+      </p>
+     </article>
+    </div>
+   </section>
+   <!-- Recursos -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn" id="resources">
+    <h2 class="text-4xl font-poppins font-semibold mb-6 text-center text-cyan-700 relative inline-block" style="color: var(--color-primary-celeste-dark);">
+     Recursos Clave para tu Postulación
+     <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+     </span>
+    </h2>
+    <p class="text-center max-w-3xl mx-auto text-gray-600 mb-10">
+     Prepárate para tu viaje académico con estos recursos esenciales que te ayudarán en cada etapa del proceso.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-language">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Dominio de Idiomas
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Plataformas como
+       <strong>
+        Duolingo
+       </strong>
+       y
+       <strong>
+        Babbel
+       </strong>
+       te ayudarán a practicar y mejorar tus habilidades lingüísticas, un requisito fundamental para la mayoría de las becas internacionales.
+      </p>
+      <div class="flex justify-center gap-6">
+       <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.duolingo.com" target="_blank">
+        Duolingo
+        <i class="fas fa-external-link-alt">
+        </i>
+       </a>
+       <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.babbel.com" target="_blank">
+        Babbel
+        <i class="fas fa-external-link-alt">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-clipboard-list">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Exámenes Estandarizados
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       Prepara exámenes como el
+       <strong>
+        TOEFL
+       </strong>
+       o
+       <strong>
+        IELTS
+       </strong>
+       para inglés, o el
+       <strong>
+        SAT/ACT
+       </strong>
+       para admisiones a pregrado en EE.UU. Son cruciales para demostrar tu nivel académico.
+      </p>
+      <div class="flex justify-center gap-6">
+       <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.ets.org/toefl" target="_blank">
+        TOEFL Oficial
+        <i class="fas fa-external-link-alt">
+        </i>
+       </a>
+       <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline" href="https://www.ielts.org/" target="_blank">
+        IELTS Oficial
+        <i class="fas fa-external-link-alt">
+        </i>
+       </a>
+      </div>
+     </article>
+     <article class="card bg-cyan-50 rounded-lg p-6 shadow hover:shadow-lg transition-shadow flex flex-col">
+      <div class="text-green-600 text-4xl mb-4 text-center">
+       <i class="fas fa-chalkboard-teacher">
+       </i>
+      </div>
+      <h3 class="text-xl font-semibold text-cyan-700 mb-3 text-center">
+       Asesoría y Guía
+      </h3>
+      <p class="text-gray-700 flex-grow mb-4 text-center">
+       <strong>
+        EducationUSA Guatemala
+       </strong>
+       ofrece orientación gratuita sobre estudios en EE.UU. Busca también programas de mentoría o asesoría especializada en tu campo de interés.
+      </p>
+      <a class="inline-flex items-center gap-2 text-green-600 font-semibold hover:underline justify-center" href="https://gt.usembassy.gov/education-culture/educationusa/" target="_blank">
+       EducationUSA Guatemala
+       <i class="fas fa-external-link-alt">
+       </i>
+      </a>
+     </article>
+    </div>
+   </section>
+   <!-- CTA -->
+   <section class="bg-gradient-to-br from-cyan-600 to-blue-700 text-white rounded-xl shadow-lg py-16 px-6 text-center max-w-4xl mx-auto animate-fadeIn" style="font-family: 'Poppins', sans-serif;">
+    <h2 class="text-4xl font-extrabold mb-6 drop-shadow-lg">
+     ¿Listo para Iniciar tu Viaje Global?
+    </h2>
+    <p class="text-xl max-w-3xl mx-auto mb-10 opacity-90 font-medium drop-shadow-md">
+     No dejes pasar la oportunidad de transformar tu futuro. Contáctanos hoy y descubre cómo podemos ayudarte a conseguir esa beca que cambiará tu vida.
+    </p>
+    <a class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-400 focus:ring-opacity-50 text-white font-semibold rounded-lg px-8 py-4 text-lg transition-transform active:scale-95 shadow-lg mx-auto" href="#contact">
+     <i class="fas fa-envelope">
+     </i>
+     Contáctanos Ahora
+    </a>
+   </section>
+   <!-- Contacto -->
+   <section class="bg-white rounded-xl shadow-md p-8 md:p-12 animate-fadeIn max-w-3xl mx-auto" id="contact">
+    <div class="text-center mb-10">
+     <h2 class="text-4xl font-poppins font-semibold mb-4 text-cyan-700 relative inline-block" style="color: var(--color-primary-celeste-dark);">
+      Ponte en Contacto
+      <span class="block h-1 w-20 bg-green-600 rounded mt-2 mx-auto">
+      </span>
+     </h2>
+     <p class="text-gray-600 text-lg">
+      ¿Tienes preguntas o necesitas asesoría personalizada? Envíanos un mensaje. ¡Estamos aquí para guiarte en cada paso!
+     </p>
+    </div>
+    <form class="space-y-6" novalidate="">
+     <div>
+      <label class="block mb-2 font-semibold text-cyan-700" for="nombre">
+       <i class="fas fa-user mr-2 text-green-600">
+       </i>
+       Nombre completo:
+      </label>
+      <input class="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-300 focus:outline-none transition" id="nombre" name="nombre" placeholder="Tu nombre" required="" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-cyan-700" for="correo">
+       <i class="fas fa-at mr-2 text-green-600">
+       </i>
+       Correo electrónico:
+      </label>
+      <input class="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-300 focus:outline-none transition" id="correo" name="correo" placeholder="tu.correo@ejemplo.com" required="" type="email"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-cyan-700" for="asunto">
+       <i class="fas fa-tag mr-2 text-green-600">
+       </i>
+       Asunto:
+      </label>
+      <input class="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-300 focus:outline-none transition" id="asunto" name="asunto" placeholder="Consulta sobre becas, asesoría, etc." required="" type="text"/>
+     </div>
+     <div>
+      <label class="block mb-2 font-semibold text-cyan-700" for="mensaje">
+       <i class="fas fa-comment-dots mr-2 text-green-600">
+       </i>
+       Mensaje:
+      </label>
+      <textarea class="w-full rounded-lg border border-gray-300 px-4 py-3 text-gray-700 placeholder-gray-400 focus:border-cyan-500 focus:ring-2 focus:ring-cyan-300 focus:outline-none transition resize-none" id="mensaje" name="mensaje" placeholder="Cuéntanos más sobre tus intereses y cómo podemos ayudarte..." required="" rows="6"></textarea>
+     </div>
+     <div class="text-center">
+      <button class="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-400 focus:ring-opacity-50 text-white font-semibold rounded-lg px-8 py-4 text-lg transition-transform active:scale-95 shadow-lg" type="submit">
+       <i class="fas fa-paper-plane">
+       </i>
+       Enviar Mensaje
+      </button>
+     </div>
+    </form>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-cyan-700 text-white py-12 text-center shadow-inner mt-20" style="font-family: 'Poppins', sans-serif;">
+   <div class="container max-w-7xl mx-auto px-6">
+    <p class="mb-4 opacity-80">
+     © 2025 Oportunidades Globales GT. Todos los derechos reservados.
+    </p>
+    <div class="flex justify-center space-x-8 mb-4 text-2xl">
+     <a aria-label="Facebook" class="hover:text-green-500 transition-colors" href="#">
+      <i class="fab fa-facebook-f">
+      </i>
+     </a>
+     <a aria-label="Twitter" class="hover:text-green-500 transition-colors" href="#">
+      <i class="fab fa-twitter">
+      </i>
+     </a>
+     <a aria-label="LinkedIn" class="hover:text-green-500 transition-colors" href="#">
+      <i class="fab fa-linkedin-in">
+      </i>
+     </a>
+     <a aria-label="Instagram" class="hover:text-green-500 transition-colors" href="#">
+      <i class="fab fa-instagram">
+      </i>
+     </a>
+    </div>
+    <p class="opacity-80">
+     Hecho con
+     <i class="fas fa-heart text-red-500">
+     </i>
+     en Guatemala.
+    </p>
+   </div>
+  </footer>
+  <script>
+   // Mobile menu toggle
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+    menuBtn.addEventListener("click", () => {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // Tabs functionality
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabPanels = document.querySelectorAll(".tab-panel");
+
+    tabButtons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        // Remove active states
+        tabButtons.forEach((b) => {
+          b.classList.remove(
+            "bg-cyan-100",
+            "shadow-md",
+            "text-cyan-700",
+            "focus:ring-2"
+          );
+          b.setAttribute("aria-selected", "false");
+          b.setAttribute("tabindex", "-1");
+        });
+        tabPanels.forEach((panel) => panel.classList.add("hidden"));
+
+        // Activate clicked tab
+        btn.classList.add("bg-cyan-100", "shadow-md", "text-cyan-700", "focus:ring-2");
+        btn.setAttribute("aria-selected", "true");
+        btn.setAttribute("tabindex", "0");
+        const panelId = btn.getAttribute("aria-controls");
+        const panel = document.getElementById(panelId);
+        if (panel) {
+          panel.classList.remove("hidden");
+          panel.focus();
+        }
+      });
+    });
+
+    // Accessibility: keyboard navigation for tabs
+    tabButtons.forEach((btn, i) => {
+      btn.addEventListener("keydown", (e) => {
+        let index = i;
+        if (e.key === "ArrowRight") {
+          e.preventDefault();
+          index = (i + 1) % tabButtons.length;
+          tabButtons[index].focus();
+        } else if (e.key === "ArrowLeft") {
+          e.preventDefault();
+          index = (i - 1 + tabButtons.length) % tabButtons.length;
+          tabButtons[index].focus();
+        } else if (e.key === "Home") {
+          e.preventDefault();
+          tabButtons[0].focus();
+        } else if (e.key === "End") {
+          e.preventDefault();
+          tabButtons[tabButtons.length - 1].focus();
+        } else if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          btn.click();
+        }
+      });
+    });
+  </script>
+ </body>
+</html>
